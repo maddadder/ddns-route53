@@ -57,7 +57,7 @@ spec:
               value: '*/30 * * * *'
             - name: TZ
               value: Europe/Paris
-          image: crazymax/ddns-route53:latest
+          image: docker.io/crazymax/ddns-route53:latest
           name: reneg-us-ddns-route53
           resources: {}
       restartPolicy: Always

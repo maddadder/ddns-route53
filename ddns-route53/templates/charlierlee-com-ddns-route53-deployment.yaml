@@ -59,6 +59,7 @@ spec:
               value: Europe/Paris
           image: docker.io/crazymax/ddns-route53:latest
           name: charlierlee-com-ddns-route53
-          resources: {}
+          resources:
+            {{- toYaml .Values.resources | nindent 12 }}
       restartPolicy: Always
 status: {}

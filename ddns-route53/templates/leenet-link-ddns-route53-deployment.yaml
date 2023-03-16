@@ -54,7 +54,7 @@ spec:
             - name: LOG_LEVEL
               value: info
             - name: SCHEDULE
-              value: '*/30 * * * *'
+              value: '0 12 * * *'
             - name: TZ
               value: Europe/Paris
           image: docker.io/crazymax/ddns-route53:latest
